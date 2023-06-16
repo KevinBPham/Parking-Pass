@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .grid-container {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #92CDEF;
+      display: grid;
+      height: auto;
+      align-content: center;
+      grid-template-columns: auto auto;
+      gap: 10px;
+      padding: 15px;
+    }
+
+    .grid-container>div {
+      background-color: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      padding: 50px 0px 50px 0px;
+      font-size: 30px;
+
+    }
+
+    .item1 {
+      margin: 0px 300px 0px 300px;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 4;
+    }
+
+    .item5 {
+      margin: 0px;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 align='center'>Welcome to the Parking Pass System!</h1>
+
+
+  <div class="grid-container">
+    <div class="item"><a href="userinfo.html">My Information</a><br>
+      <i class="fa fa-user" style="font-size:48px;"></i>
+    </div>
+
+    <div class="item2"><a href="registerpass.html">View/Purchase Pass</a><br>
+      <i class="fa fa-car" style="font-size:48px;"></i>
+    </div>
+
+    <div class="item3"><a href="userfines.html">View/Pay Fines</a><br>
+      <i class="fa fa-money" style="font-size:48px;"></i>
+    </div>
+
+    <div class="item4"><a href="announcements.html">Announcements</a><br>
+      <i class="fa fa-bullhorn" style="font-size:48px;"></i>
+    </div>
+
+    <div class="item5"><a href="assignfine.html">Assign Fines</a> <br>
+      <i class="fa fa-address-card-o" style="font-size:48px;"></i>
+      
+    </div>
+
+    <div class="item1">Log Out<br>
+    </div>
+
+    <p></p>
+
+</body>
+
+</html>

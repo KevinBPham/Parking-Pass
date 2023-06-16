@@ -1,0 +1,21 @@
+
+.header {
+    background-color: aliceblue;
+	border: 2px solid black;
+}
+
+body {
+    background-image: linear-gradient(#fbeced, #425465);
+    height: 100%;
+    margin: 10;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box {
+    margin: auto;
+    width: 25%;
+    background-color: aliceblue;
+    border: 3px solid #5a72d8;
+    padding: 10px 5px;
+}

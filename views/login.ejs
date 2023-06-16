@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Login:">
+    <meta name="description" content="">
+    <title>login</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,
+	100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <meta property="og:title" content="login">
+    <meta property="og:type" content="website">
+  </head>
+
+	<div class = body align ='center' >
+		<header>
+			<p align ='right'> 
+				<a href="home.html" style="padding: 10px 5px;">Home</a> 
+				<a href="home.html" style="padding: 10px 5px;">About</a> 
+				<a href="home.html" style="padding: 10px 5px;">Contact</a> 
+				<a href="home.html" style="padding: 10px 5px;">Login</a>
+			</p>
+		</header>
+		<div style="padding-bottom: 50px;"></div>
+		<div class="login">
+			<h1>Login</h1>
+			<div class="box">
+				<form action="/auth/login" method="post">
+					<p >Username:</p>
+					<label for="username">
+						<!-- font awesome icon -->
+						<i class="fas fa-user"></i>
+					</label>
+					<input type="text" name="username" placeholder="Username" id="username" required>
+					<br>
+					<p >Password:</p>
+					<label for="password">
+						<i class="fas fa-lock"></i>
+					</label>
+					<input type="password" name="password" placeholder="Password" id="password" required>
+					<br>
+					<br>
+					<input type="submit" value="Login">
+					<br>
+					<br>
+					<a href="register.html"> New users register here </a>
+				</form>
+			</div>
+		</div>
+	</div>
+</html>
